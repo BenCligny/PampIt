@@ -1,4 +1,4 @@
-let loader;
+/*  let loader;
 function loadNow(opacity) {
   if(opacity <= 0) {
     displayContent();
@@ -16,4 +16,9 @@ function displayContent() {
 document.addEventListener("DOMContentLoaded", function() {
   loader = document.getElementById('loader');
   loadNow(1);
-});
+});  */
+
+window.addEventListener('load', () => {
+  const preload = document.querySelector('#loader');
+  preload.classList.add('preload-finish');
+})

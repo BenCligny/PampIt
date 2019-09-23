@@ -2,16 +2,34 @@
 <html lang="fr">
 <head>
   <meta charset="utf-8">
-  <title>Test</title>
+  <title>AgencePumpIt</title>
   <link rel="stylesheet" href="style.css">
-  <script src="script.js"></script>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 </head>
+<header>
+  <input type='checkbox' id='toggle' style='display:none;' />
+  <label class='toggle-btn toggle-btn__cross' for='toggle'>
+    <div class="bar"></div>
+    <div class="bar"></div>
+    <div class="bar"></div>
+  </label>
+  <nav>
+    <ul>
+      <li><a href="#">Nos Valeurs</a></li>
+      <li><a href="#">La Team</a></li>
+      <li><a href="#">Nos Services</a></li>
+      <li><a href="#">Contact</a></li>
+    </ul>
+  </nav>
+</header>
 <body>
-  <div id="content">
-    <h1>Site de l'agence - TEST</h1>
-  </div>
   <div id="loader">
-      <img src="pamp.png"> test </img>
+    <img src="pamp.png" alt="pamplemousse"></img>
+    <h3>Chargement du site...</h3>
   </div>
+  <div id="content">
+    <h1>Site de l'agence</h1>
+  </div>
+  <script src="script.js"></script>
 </body>
 </html>
