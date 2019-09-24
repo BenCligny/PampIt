@@ -7,7 +7,10 @@
 html, body {
   width: 100%;
   height: 100vh;
-  background-color: #fcddc1 !important; }
+  background-color: #fbf5e9 !important; }
+
+header {
+  background-color: #fcddc1; }
 
 @keyframes rotateAnim {
   from {
@@ -40,10 +43,19 @@ html, body {
   opacity: 0;
   pointer-events: none; }
 
+.cacher {
+  display: none; }
+
 h1 {
   position: static;
   color: #ff736a;
   font-family: Roboto; }
+
+#imgacc {
+  cursor: pointer;
+  margin-top: 3px;
+  margin-left: 3px;
+  margin-bottom: 3px; }
 
 :root {
   font-size: 16px; }
@@ -88,7 +100,7 @@ header nav {
   position: fixed;
   z-index: 10;
   right: 10px;
-  top: 10px;
+  top: 13px;
   cursor: pointer; }
   .toggle-btn .bar {
     width: 30px;

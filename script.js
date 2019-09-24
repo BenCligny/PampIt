@@ -22,3 +22,9 @@ window.addEventListener('load', () => {
   const preload = document.querySelector('#loader');
   preload.classList.add('preload-finish');
 })
+
+const content = document.querySelector('#content');
+content.classList.add('cacher');
+window.addEventListener('load', () => {
+  content.classList.remove('cacher');
+})
